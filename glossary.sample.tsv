@@ -1,0 +1,28 @@
+﻿# Example glossary for post-transcription term repair.
+# Format:  wrong <TAB> right [<TAB> mode]
+# Modes:   exact (default) | ci (case-insensitive) | re (regex)
+# Rules are applied in file order. Only add a rule when the replacement is the
+# ONLY reasonable reading — a wrong rule is worse than a wrong transcript.
+
+# --- product / brand names ------------------------------------------------
+N8N	n8n
+N8恩	n8n
+jason	JSON	ci
+open ai	OpenAI	ci
+chat gpt	ChatGPT	ci
+zapier	Zapier	ci
+google sheet	Google Sheets	ci
+Airtable	Airtable	ci
+
+# --- technical jargon -----------------------------------------------------
+subtraction experiment	ablation study	ci
+close loop	closed loop	ci
+middle office	middleware	ci
+token limit	token limit	ci
+
+# --- regex example: the model often splits a spelled-out acronym ----------
+\bN\s*8\s*N\b	n8n	re
+
+# --- names ----------------------------------------------------------------
+# Add the speaker's / client's names here. Keeping the spelling consistent
+# across a long recording matters more than any single word.

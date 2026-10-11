@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+out/
+out_*/
+transcripts/
+*.fixed.txt
+*.readable.md
+*.clean.txt
+# ...but the committed examples under samples/ are deliberate
+!samples/*.readable.md
+!samples/*.srt
+models/
+.DS_Store
+Thumbs.db

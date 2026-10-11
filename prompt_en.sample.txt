@@ -1,0 +1,8 @@
+# Example `initial_prompt` for an English technical interview or product call.
+# Keeping this short (2-4 sentences) works better than a long word list:
+# Whisper uses it as style + context for the first window only.
+
+This is a technical interview about workflow automation and API integrations.
+Recurring terms: n8n, Zapier, Make, webhook, JSON, REST API, OAuth, rate limit,
+idempotency, retry with exponential backoff, Google Sheets, Slack, Airtable,
+PostgreSQL, OpenAI, Claude, structured output, vector database, RAG.

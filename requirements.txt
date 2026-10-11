@@ -1,0 +1,15 @@
+# Core
+faster-whisper>=1.0.0
+ctranslate2>=4.0.0
+
+# GPU runtime for Windows/Linux (pip wheels that provide cublas/cudnn).
+# Skip these two lines if you run on CPU or already have a system CUDA toolkit.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
+
+# Chinese transcripts: Whisper mixes Traditional characters into Simplified
+# output and opencc normalises them. Optional if you only work in Latin scripts.
+opencc-python-reimplemented
+
+# Only needed for the optional YouTube/video download helper.
+# yt-dlp

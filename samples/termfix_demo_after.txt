@@ -1,0 +1,6 @@
+[00:00:04] So the first thing we did was move everything off spreadsheets into n8n.
+[00:00:11] The intake form posts JSON to a webhook, and then OpenAI classifies it.
+[00:00:19] We ran a ablation study to check whether the prompt or the model mattered more.
+[00:00:27] Every step has a retry with a closed loop so nothing gets lost.
+[00:00:35] The result lands in Google Sheets and the team gets a Slack message.
+[00:00:43] If someone writes the tool as n8n in the ticket, it still routes correctly.

@@ -1,0 +1,9 @@
+# Chapter markers for segment.py --chapters
+# Format: TIMESTAMP Title   (MM:SS or HH:MM:SS)
+00:00 Introduction
+10:59 Two real cases
+21:35 Finding the first paid job
+38:51 Where the moat actually is
+54:38 What the tools can and cannot do
+82:55 Handling the change
+95:28 Summary
